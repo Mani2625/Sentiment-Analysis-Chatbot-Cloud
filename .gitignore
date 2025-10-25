@@ -1,0 +1,25 @@
+# Dependencies
+**/node_modules
+**/venv/
+**/__pycache__
+
+# Python Specific
+*.pyc
+*.egg-info/
+.pytest_cache
+*.db
+local_model.pkl  # Exclude your simulated local model file
+
+# Environment/Credentials (CRITICAL: DO NOT COMMIT API KEYS)
+.env
+*.env
+*.key
+*.pem
+*.json # Exclude JSON files if they contain service account credentials (e.g., Azure/GCP keys)
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# React Build Output
+/chatbot-ui/dist

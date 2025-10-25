@@ -1,0 +1,11 @@
+# requirements.txt
+flask
+flask-cors
+transformers
+torch
+scikit-learn
+
+# requirements.txt for LLM Backend
+flask
+flask-cors
+google-genai
